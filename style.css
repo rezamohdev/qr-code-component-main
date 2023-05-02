@@ -49,3 +49,8 @@
   width: calc(100% - 40px);
   color: hsl(220, 15%, 55%);
 }
+@media screen and (max-width: 375px) {
+  .card {
+    width: calc(100% - 45px);
+  }
+}
